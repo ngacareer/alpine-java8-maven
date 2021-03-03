@@ -12,7 +12,7 @@
 
 <a href="http://maven.apache.org/">Apache Maven</a> is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
-## What is alpine-java8-maven ? 
+## What is alpine-maven ? 
 
 Linux lightweight, It has been integrated jdk 1.8 and maven
 
