@@ -18,6 +18,6 @@ RUN curl -o apache-maven-$MAVEN_VERSION-bin.tar.gz -L \
     tar -zxvf apache-maven-$MAVEN_VERSION-bin.tar.gz && \
     rm apache-maven-$MAVEN_VERSION-bin.tar.gz && \
     mv apache-maven-$MAVEN_VERSION /usr/lib/mvn
-    
+ENTRYPOINT ["/sbin/tini", "--"]    
 CMD ["mvn"]    
 
